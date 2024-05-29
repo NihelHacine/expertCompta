@@ -1,0 +1,11 @@
+.documents{
+margin: auto;
+padding: 2%;
+min-height: 50vh;
+display: flex;
+justify-content: space-between;
+}
+.fichiers Button{
+ margin: 20px;
+    
+}

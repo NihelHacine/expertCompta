@@ -1,0 +1,27 @@
+.userscontainer{
+    width: 100%;
+
+}
+.userslist{
+    width: 90%;
+    margin: auto;
+    padding: 3%;
+
+}
+.userslist table {
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  
+.userslist th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+.userslist tr:nth-child(even){background-color: #f2f2f2}
+  
+  .userslist th {
+    background-color: #0d0e0d;
+    color: white;
+  }

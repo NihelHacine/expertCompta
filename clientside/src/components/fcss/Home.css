@@ -1,0 +1,47 @@
+.home{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.home .hometext{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    padding: 5%;
+    background: linear-gradient( #fcfcfd,#c7c5c5);
+    border-radius: 0 0 300px 300px;
+  
+}
+.hometext .text{
+    padding: 3%;
+    text-align: center;
+}
+.hometext h2{
+    color: rgb(0, 102, 255);
+}
+.homeimg {
+    display: flex;
+    justify-content: center;
+}
+.homeimg img{
+    width:80%;
+     height:80%;
+}
+
+@media only screen and (max-width: 750px) {
+    .home{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .home .hometext{
+        width: 100%;
+        margin: auto;
+    }
+    .homeimg{
+        margin: auto;
+    }
+  }

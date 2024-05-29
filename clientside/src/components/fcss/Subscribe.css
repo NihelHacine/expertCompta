@@ -1,0 +1,102 @@
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+
+.subscribe  {
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+	background-color:#f7f7f7;
+    padding: 2%;
+}
+
+
+/* Add padding to container elements */
+.subscribe{
+  padding: 2%;
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+}
+.subscribe .container {
+    padding: 2%;
+      width:500px;
+    left: 50%;
+    top: 50%;
+      border:1px solid #ccc;
+      border-radius:10px;
+      background:white;
+  -webkit-box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+  -moz-box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+  box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+  }
+
+/* Full-width input fields */
+.subscribe input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+}
+.subscribe select {
+  width: 18%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+}
+
+.subscribe input[type=phone] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+}
+
+.subscribe input[type=text]:focus,.subscribe input[type=password]:focus,.subscribe input[type=phone]:focus,.subscribe select:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+
+/* Set a style for all buttons */
+.subscribe button {
+  background-color: #ff5e14;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+	font-size:16px;
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+	border-radius:10px;
+}
+
+.subscribe button:hover {
+  opacity:1;
+}
+
+
+/* Change styles for signup button on extra small screens */
+@media screen and (max-width: 300px) {
+   
+    .subscribe .signupbtn {
+     width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .subscribe .container{
+    width: 100%;
+  }
+
+}
+
+
+

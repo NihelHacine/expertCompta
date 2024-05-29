@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700&display=swap');
+
+/* Core Styles */
+
+.services html {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.services body {
+    background: #efefef;
+}
+
+.services section {
+  text-align: center;
+  padding: 1.5em 1em;
+}
+
+.services .header {
+  width: 960px;
+  margin: 1em auto;
+  text-align: center;
+  border-bottom: 2px solid rgba(29,29,29,0.6);
+  padding: 1em;
+}
+
+.services .header h1 {
+  margin-bottom: 0.25em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.services .header a {
+  text-decoration: none;
+  color: #1d1d1d;
+  font-weight: 700;
+  transition: all 0.35s ease-in-out;
+}
+
+.services .header a:hover {
+  color: #e99041;
+}
+
+.services .row {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.services .heading {
+    margin-bottom: 1em;
+}
+
+.services .figure {
+  background: #1d1d1d;
+  display: inline-block;
+  margin: 10px;
+
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.services .figure * {
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+/* Section 5 - Hover Effect #05 */
+
+.services .section-5 .figure {
+  height: 418px;
+}
+
+.services .section-5 .figure img {
+  max-width: 100%;
+  position: relative;
+  opacity: 0.7;
+}
+
+.services .section-5 .figure figcaption {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 13%;
+  right: 13%;
+  border: 1px solid rgba(239,239,239,0.8);
+  border-width: 0 1px;
+  background-color: rgba(29,29,29,0.2);
+  color: #efefef;
+/*   width: 220px; */
+}
+
+.services .section-5 .figure h2 {
+  padding: 15px 20px;
+  margin: 0;
+  text-tranform: uppercase;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+
+.services .section-5 .figure h2 span {
+  font-weight: 800;
+}
+
+.services .section-5 .figure .icon,
+.services .section-5 .figure .caption {
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+}
+
+.services .section-5 .figure .icon {
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  top: 0;
+}
+
+.services .section-5 .figure .caption {
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+  bottom: 0;
+}
+
+.services .section-5 .figure p,
+.services .section-5 .figure .icon span {
+  display: table;
+  margin: 0 auto;
+  padding: 0 10px;
+  position: relative;
+  text-align: center;
+  width: auto;
+  color: rgba(239,239,239,0);
+  font-size: 0.8em;
+}
+
+.services .section-5 .figure p:before,
+.services .section-5 .figure .icon span:before,
+.services .section-5 .figure p:after,
+.services .section-5 .figure .icon span:after {
+  position: absolute;
+  height: 1px;
+  content: '';
+  background: #fff;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.services .section-5 .figure .icon span:before,
+.services .section-5 .figure .icon span:after {
+  width: 1000%;
+  top: 50%;
+}
+
+.services .section-5 .figure .icon span:before {
+  left: -1000%;
+}
+
+.services .section-5 .figure .icon span:after {
+  right: -1000%;
+}
+
+.services .section-5 ion-icon {
+  color: #efefef;
+  font-size: 30px;
+}
+
+.services .section-5 .figure p:before,
+.services .section-5 .figure p:after {
+  width: 150%;
+  bottom: 50%;
+}
+
+.services .section-5 .figure p:before {
+  left: -100%;
+}
+
+.services .section-5 .figure p:after {
+  right: -100%;
+}
+
+.services .section-5 .figure a {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.services .section-5 .figure:hover img,
+.services .section-5 .figure.hover img {
+  opacity: 0.15;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.services .section-5 .figure:hover p,
+.services .section-5 .figure.hover p {
+  opacity: 1;
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+  color: #efefef;
+}
+
+.services .section-5 .figure:hover p:before,
+.services .section-5 .figure.hover p:before {
+  left: -150%;
+}
+
+.services .section-5 .figure:hover p:after,
+.services .section-5 .figure.hover p:after{
+  right: -150%;
+}
+

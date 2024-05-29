@@ -1,0 +1,11 @@
+.forum{
+    margin: auto;
+    width: 70%;
+    padding: 3%;
+    min-height: auto;
+}
+.forumcontainer{
+    margin: auto;
+    width: 90%;
+    height: auto;
+}
