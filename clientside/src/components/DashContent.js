@@ -31,22 +31,7 @@ function DashContent() {
             <div className="icon"><i className="fa-solid fa-user " /></div>
             <div className="title">Gestion des demandes</div>
           </li></Link>
-          {/* 
-          <li>
-            <div className="icon"><i className="fa-solid fa-plane" /></div>
-            <div className="title">Step 4</div>
-            <div className="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, porro.</div>
-          </li>
-          <li>
-            <div className="icon"><i className="fa-solid fa-rocket" /></div>
-            <div className="title">Step 5</div>
-            <div className="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, porro.</div>
-          </li>
-          <li>
-            <div className="icon"><i className="fa-solid fa-bus" /></div>
-            <div className="title">Step 6</div>
-            <div className="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, porro.</div>
-          </li> */}
+          
         </ol>
         <div className="credits">
           <a target="_blank" href="https://www.freepik.com/premium-vector/vector-infographic-design-template-with-icons-8-options-steps_10571883.htm">inspired by</a>

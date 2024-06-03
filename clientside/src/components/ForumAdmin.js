@@ -3,6 +3,7 @@ import {useDispatch, useSelector} from 'react-redux'
 import {deleteforum} from '../redux/forumSlice'
 import Swal from 'sweetalert2'
 import AddResponse from './AddResponse';
+import EditForum from './EditForum';
 
 
 function ForumAdmin() {
@@ -12,7 +13,7 @@ function ForumAdmin() {
     <div>
        <header className="bg-white shadow">
     <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-      <h1 className="text-3xl font-bold tracking-tight text-gray-900">Liste des clients</h1>
+      <h1 className="text-3xl font-bold tracking-tight text-gray-900">Forum</h1>
     </div>
   </header>
  <div className='userslist'>
@@ -35,7 +36,7 @@ function ForumAdmin() {
        <td>
         {el?.response===""?(
             <AddResponse el={el}/>
-        ):null}
+        ):<EditForum el={el}/>}
         </td>
        <td><button type='submit' onClick={()=>{
         dispatch(deleteforum(el?._id));
