@@ -22,8 +22,8 @@ export const deleteforum = createAsyncThunk ("forum/delete",async(id)=> {try {
 } catch (error) {
     console.log(error);
 }})
-export const editforum = createAsyncThunk ("forum/update",async({id})=> {try {
-    let result = axios.put (`http://localhost:5000/forum/${id}`)
+export const editforum = createAsyncThunk ("forum/update",async({id,editedresponse})=> {try {
+    let result = axios.put (`http://localhost:5000/forum/${id}`,editedresponse)
     return result;
 } catch (error) {
     console.log(error);

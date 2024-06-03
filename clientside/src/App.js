@@ -32,6 +32,7 @@ import FileManag from './components/FileManag';
 import { getfile } from './redux/fileSlice';
 import ReceiveFile from './components/ReceiveFile';
 import { getforum } from './redux/forumSlice';
+import ForumAdmin from './components/ForumAdmin';
 
 
 
@@ -71,6 +72,7 @@ function App() {
         <Route path="dashboard/userslist" element={ <PrivateRoute><UsersList/></PrivateRoute>}/>
         <Route path="dashboard/appointment" element={ <PrivateRoute><Appointment/></PrivateRoute>}/>
         <Route path="dashboard/demands" element={ <PrivateRoute><Demands/></PrivateRoute>}/>
+        <Route path="dashboard/forum" element={ <PrivateRoute><ForumAdmin/></PrivateRoute>}/>
         <Route path="dashboard/demands/files/:_id" element={<PrivateRoute><FileManag/></PrivateRoute>}/>
         <Route path="userProfile" element={<PrivateRoute><UserProfile/></PrivateRoute>}/>
         <Route path="mydemands" element={<PrivateRoute><MyDemands/></PrivateRoute>}/>

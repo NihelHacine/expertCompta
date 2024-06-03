@@ -1,5 +1,6 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
 import axios from"axios";
+
 export const getappoint = createAsyncThunk ("appoint/get",async()=> {try {
     let result = axios.get("http://localhost:5000/appoint/allappoint")
     return result;

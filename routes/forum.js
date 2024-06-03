@@ -45,7 +45,7 @@ forumrouter.put("/:id", async (req, res) => {
   try {
     let result = await forum.findByIdAndUpdate(
       { _id: req.params.id },
-      { $set: {status:"acceptée"} }
+      { $set: req.body }
     );
     res.send({ msg: " forum updated " });
   } catch (error) {
